@@ -29,7 +29,7 @@ Seguir como exemplos de UI e conteúdo no diretório /class project.<br/>
 </p>
 
 ### ENVIO DO TESTE
-Ao finalizar, deverá ser enviado o link do repositório e do sistema em produção, no caso de ter feito o deploy, pelo seguinte formulário:
+Ao finalizar, deverá ser enviado o link do repositório pelo seguinte formulário:
 https://forms.gle/urA4R4YTvwjjGCoi7
 
 ### AVALIAÇÃO
