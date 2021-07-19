@@ -27,3 +27,19 @@ Seguir como exemplos de UI e conteúdo no diretório /class project.<br/>
 <p align="left">
   <img src="class project/ui_comments_example.png?raw=true" width="350" title="Posts">
 </p>
+
+### ENVIO DO TESTE
+Ao finalizar, deverá ser enviado o link do repositório e do sistema em produção, no caso de ter feito o deploy, pelo seguinte formulário:
+https://forms.gle/urA4R4YTvwjjGCoi7
+
+### AVALIAÇÃO
+Irá ser avaliado:
+
++ Seu conhecimento técnico e criatividade;
++ Sua habilidade para resolver problemas de forma simples e eficiente;
++ Boas práticas de código.
+---
+
+Boa sorte!
+
+Equipe **#roga_rocks**
