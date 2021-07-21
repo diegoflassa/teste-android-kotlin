@@ -4,6 +4,7 @@ import io.github.diegoflassa.teste_android_kotlin.buildsrc.Versions
 plugins {
     id("com.android.library")
     id("kotlin-android")
+    id("kotlin-kapt")
 }
 
 android {

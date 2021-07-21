@@ -1,7 +1,5 @@
 import io.github.diegoflassa.teste_android_kotlin.buildsrc.Config
 import io.github.diegoflassa.teste_android_kotlin.buildsrc.Versions
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import com.android.build.gradle.AppExtension
 import java.io.FileInputStream
 import java.util.*
 
@@ -83,6 +81,14 @@ dependencies {
     implementation("androidx.navigation:navigation-runtime-ktx:${Versions.navigation}")
     implementation("androidx.navigation:navigation-fragment-ktx:${Versions.navigation}")
     implementation("androidx.navigation:navigation-ui-ktx:${Versions.navigation}")
+    implementation("androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}")
+    implementation("androidx.recyclerview:recyclerview:${Versions.recyclerview}")
+    implementation("androidx.recyclerview:recyclerview-selection:${Versions.recyclerview_selection}")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:${Versions.lifecycle}")
+    implementation("androidx.lifecycle:lifecycle-common-java8:${Versions.lifecycle}")
+    implementation("androidx.lifecycle:lifecycle-common:${Versions.lifecycle}")
     androidTestImplementation("junit:junit:${Versions.junit}")
     androidTestImplementation("androidx.test.ext:junit-ktx:${Versions.junit_ktx}")
     androidTestImplementation("androidx.test.espresso:espresso-core:${Versions.espresso}")

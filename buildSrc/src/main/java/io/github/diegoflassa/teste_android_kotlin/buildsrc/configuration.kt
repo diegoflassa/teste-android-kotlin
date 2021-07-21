@@ -4,11 +4,10 @@ import java.io.File
 import java.io.FileInputStream
 import java.util.*
 
-@Suppress("Unused", "MemberVisibilityCanBePrivate")
 object Config {
     const val applicationId = "io.github.diegoflassa.teste_android_kotlin"
     private const val versionMajor = 1
-    private const val versionMinor = 0
+    private const val versionMinor = 1
     private const val versionPatch = 1
     private var versionClassifier = "debug"
     const val minimumSdkVersion = 24

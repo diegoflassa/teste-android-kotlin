@@ -6,23 +6,23 @@
     app:startDestination="@id/FirstFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="io.github.diegoflassa.teste_android_kotlin.FirstFragment"
+        android:id="@+id/CommentsFragment"
+        android:name="io.github.diegoflassa.teste_android_kotlin.CommentsFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_comments">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/action_CommentsFragment_to_PostsFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="io.github.diegoflassa.teste_android_kotlin.SecondFragment"
+        android:id="@+id/PostsFragment"
+        android:name="io.github.diegoflassa.teste_android_kotlin.PostsFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_posts">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_PostsFragment_to_CommentsFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

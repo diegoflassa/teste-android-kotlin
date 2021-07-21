@@ -1,4 +1,4 @@
-package io.github.diegoflassa.teste_android_kotlin
+package io.github.diegoflassa.teste_android_kotlin.ui.posts
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,7 +11,7 @@ import io.github.diegoflassa.teste_android_kotlin.databinding.FragmentFirstBindi
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class PostsFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
 
